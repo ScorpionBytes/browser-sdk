@@ -32,6 +32,7 @@ function createStaticSandboxApp() {
     app.use(
       // eslint-disable-next-line @typescript-eslint/no-misused-promises
       middleware(
+        // Set publicPath for development mode. Fixes issue when using the developer extension with NPM package override.
         webpack(config(null, { mode: 'development', publicPath: `http://localhost:${DEFAULT_DEVELOPMENT_PORT}/` }))
       )
     )
