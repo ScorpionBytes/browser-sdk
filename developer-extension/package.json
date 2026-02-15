@@ -20,7 +20,7 @@
   "dependencies": {
     "@datadog/browser-core": "workspace:*",
     "@datadog/browser-logs": "workspace:*",
-    "@datadog/browser-rum": "workspace:*",
+    "@datadog/browser-rum": "1.2.3",
     "@mantine/core": "7.17.4",
     "@mantine/hooks": "7.17.4",
     "@tabler/icons-react": "3.31.0",
